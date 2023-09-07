@@ -36,7 +36,7 @@ _choose ubuntu OS_
 
 _Choose t2.micro and create a keypair_
 
-![](./images/4.png)
+![](./images/35.png)
 
 _create a security group, to allow HTTPS traffic and launch instance_
 
@@ -44,17 +44,17 @@ _create a security group, to allow HTTPS traffic and launch instance_
 
 _let's ssh into our ubuntu terminal_
 
-ssh -i Downloads/jenkinskey.pem ubuntu@13.57.214.123
+ssh -i Downloads/oges-key.pem ubuntu@13.57.214.123
 
 downloads: is where your keypair is kept
 
-jenkinskey.pem: is the name of your keypair
+oges-key.pem: is the name of your keypair
 
 ubuntu: is the name of your server
 
 13.57.214.123: is the ip address
 
-![](./images/7.png)
+![](./images/36.png)
 
 __let's install nginx__
 
